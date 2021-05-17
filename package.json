@@ -24,11 +24,6 @@
     "type": "git",
     "url": "git@github.com:rzkhosroshahi/react-jalali-datepicker.git"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && npm run lint && npm run test"
-    }
-  },
   "keywords": [
     "datepicker",
     "farsi",

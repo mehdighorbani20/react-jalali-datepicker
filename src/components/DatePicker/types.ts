@@ -2,6 +2,7 @@ import * as React from "react";
 import { Moment } from "jalali-moment";
 import { IDatePickerTheme } from "../../types";
 import { IDays } from "../../utils/daysInMonth";
+import { ReactElement } from "react";
 
 export interface IDatePickerProps {
   value: number | Date | Moment;
@@ -19,6 +20,7 @@ export interface IDatePickerProps {
   className: string | object;
   open?: boolean;
   onToggle?: (arg?: boolean) => any;
+  renderInput: (prop) => ReactElement;
 }
 
 export interface IDatePickerState {
